@@ -36,7 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Ejecucion.cs" />
      <Compile Include="Assets\Scripts\Vectores.cs" />
+     <Compile Include="Assets\Scripts\EjemplosEstructuras.cs" />
+     <Compile Include="Assets\Scripts\EstructurasDeDatos.cs" />
+     <Compile Include="Assets\Scripts\Configuracion.cs" />
+     <Compile Include="Assets\Scripts\Agente.cs" />
+     <Compile Include="Assets\Scripts\TorreHanoi\TorreHanoiEntorno.cs" />
+     <Compile Include="Assets\Scripts\TorreHanoi\TorreHanoiAgente.cs" />
     <Reference Include="UnityEngine">
         <HintPath>H:/Program Files/Unity/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
