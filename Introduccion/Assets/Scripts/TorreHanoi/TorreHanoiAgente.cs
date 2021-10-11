@@ -8,22 +8,42 @@ public class TorreHanoiAgente : MonoBehaviour
 
 
     float ultimoMov;
+    int ultimaPieza = -1;
     void Update()
-    {
+    { /*
         if(Time.realtimeSinceStartup - ultimoMov > 0.3f) 
         {
-            /*
-            int t = Random.Range(0,3);
-            int p = Random.Range(0,7);
-            piezas[p].transform.localPosition = torres[t];
-            */
-            
-            int origen = UnityEngine.Random.Range(0,3);
-            int destino = UnityEngine.Random.Range(0,3);
-            entorno.MoverPiezaTorre(origen, destino);
+            int origen;
+            int destino;
+ 
+            do 
+            {
+                origen = UnityEngine.Random.Range(0,3);
+                destino = UnityEngine.Random.Range(0,3);
+            } while (origen == destino);
+
+            if (ultimaPieza != entorno.PiezaTorre(origen)) {
+                ultimaPieza = entorno.MoverPiezaTorre(origen, destino);
+            }
+
+            //int torre0 = entorno.PiezaTorre(0);
+            //int torre1 = entorno.PiezaTorre(1);
+            //int torre2 = entorno.PiezaTorre(2);
             ultimoMov = Time.realtimeSinceStartup;
         }
-        Debug.Log(Time.realtimeSinceStartup);
-        
+        */
+//        Debug.Log(Time.realtimeSinceStartup);
+
+
+        if(Time.realtimeSinceStartup - ultimoMov > 0.3f) 
+        {
+            int origen;
+            int destino;
+ 
+            int torre0 = entorno.PiezaTorre(0);
+            int torre1 = entorno.PiezaTorre(1);
+            int torre2 = entorno.PiezaTorre(2);
+        }
+
     }
 }

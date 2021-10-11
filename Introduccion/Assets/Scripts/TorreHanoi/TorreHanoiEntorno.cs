@@ -35,7 +35,7 @@ public class TorreHanoiEntorno : MonoBehaviour
     {
     }
 
-    public void MoverPiezaTorre(int origen, int destino) 
+    public int MoverPiezaTorre(int origen, int destino) 
     {
         if (origen >=0 && origen <3) 
         {
@@ -44,22 +44,31 @@ public class TorreHanoiEntorno : MonoBehaviour
                 if (torre_piezas[origen].Count == 0) 
                 {
                     Debug.LogWarning("La torre de origen no tiene piezas");
-                    return;
+                    return -1;
                 }
+                // Tamaño de la pieza
                 int origen_t = Convert.ToInt32(torre_piezas[origen].Peek().name);
                 int destino_t = (torre_piezas[destino].Count ==0 )? 100 : Convert.ToInt32(torre_piezas[destino].Peek().name);
                 
                 if(origen_t > destino_t) 
                 {
                     Debug.LogWarning("Movimiento inválido");
-                    return;
+                    return -1;
                 }
 
                 GameObject g = torre_piezas[origen].Pop();
                 torre_piezas[destino].Push(g);
                 g.transform.localPosition = torres[destino];
+                return origen_t;
             }
         }
 
+        return -1;
+    }
+
+
+    public int PiezaTorre(int torre) 
+    {
+        return (torre_piezas[torre].Count == 0 )? -1 : Convert.ToInt32(torre_piezas[torre].Peek().name);
     }
 }
