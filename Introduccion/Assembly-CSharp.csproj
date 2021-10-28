@@ -54,16 +54,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ejecucion.cs" />
+    <Compile Include="Assets\Scripts\TicTacToe\OnClickTablero.cs" />
     <Compile Include="Assets\Scripts\Vectores.cs" />
     <Compile Include="Assets\Scripts\TorreHanoi\TorreHanoiAgente.cs" />
+    <Compile Include="Assets\Scripts\TicTacToe\TicTacToeTree.cs" />
     <Compile Include="Assets\Scripts\EjemplosEstructuras.cs" />
     <Compile Include="Assets\Scripts\EstructurasDeDatos.cs" />
     <Compile Include="Assets\Scripts\TorreHanoi\TorreHanoiEntorno.cs" />
     <Compile Include="Assets\Scripts\Configuracion.cs" />
+    <Compile Include="Assets\Scripts\TicTacToe\TicTacToeTablero.cs" />
     <Compile Include="Assets\Scripts\Agente.cs" />
-    <Compile Include="Assets\Scripts\TicTacToeTablero.cs" />
-    <Compile Include="Assets\Scripts\movimientoTicTacToeEjemplo.cs" />
-    <Compile Include="Assets\Scripts\OnClickTablero.cs" />
+    <Compile Include="Assets\Scripts\TicTacToe\movimientoTicTacToeEjemplo.cs" />
+    <Compile Include="Assets\Scripts\TicTacToe\TicTacToeCamera.cs" />
+    <Compile Include="Assets\Scripts\TicTacToe\TicTacToeEvaluacion.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
