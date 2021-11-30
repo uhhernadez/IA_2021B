@@ -1,0 +1,58 @@
+Base path: 'H:/Program Files/Unity/2020.3.17f1/Editor/Data', plugins path 'H:/Program Files/Unity/2020.3.17f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+
+
+
+
+
+
+
+
+
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=924 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/Broadcast_NHWC.compute kernel=BroadcastDiv_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1465
+
+Cmd: compileComputeKernel
+  insize=3365 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dBase.compute kernel=Conv2DKernelKxK_StrictC16StrictK64_T8x8_R8x8_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<BLOCK_SIZE=8>,<KERNEL_PER_TG=64>,<STRICT_CHANNELS=1>,<SUFFIX=KernelKxK_StrictC16StrictK64_T8x8_R>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=27245
+
+Cmd: compileComputeKernel
+  insize=81665 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Log_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=3399
+
+Cmd: compileComputeKernel
+  insize=81665 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Swish_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=3457
+
+Cmd: compileComputeKernel
+  insize=81665 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=GlobalAvgVariancePool2D_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1647
+
+Cmd: compileComputeKernel
+  insize=81665 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=DepthToSpace_CRD_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1489
+
+Cmd: compileComputeKernel
+  insize=81665 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Conv3D_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=3818
+
+Cmd: compileComputeKernel
+  insize=3157 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/Transpose.compute kernel=Transpose_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=2302
+
+Cmd: compileComputeKernel
+  insize=763 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dA_NHWC.compute kernel=DepthwiseConv2D_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=4420
+
+Cmd: compileComputeKernel
+  insize=4426 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/Pad.compute kernel=Pad2DEdge_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1449
+
+Cmd: compileComputeKernel
+  insize=713 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/ActivationA.compute kernel=Sigmoid_FlatStrict cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=777
+
+Cmd: compileComputeKernel
+  insize=924 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/Broadcast_NHWC.compute kernel=BroadcastGreaterEqual_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1502
+
+Cmd: compileComputeKernel
+  insize=451 file=F:/OneDrive - Universidad de Guanajuato/Docencia/Cursos/InteligenciaArtificial/2021_B/src/IA_2021B/MLFirstSteps/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Core/Resources/Barracuda/Pool_NCHW.compute kernel=AvgVariancePool2DReduce_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=5633
+
+
+
+Cmd: initializeCompiler
+
+Cmd: shutdown

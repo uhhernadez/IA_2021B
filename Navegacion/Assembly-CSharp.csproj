@@ -36,7 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\dummy.cs" />
+     <Compile Include="Assets\Scripts\DefineMeta.cs" />
     <Reference Include="UnityEngine">
         <HintPath>H:/Program Files/Unity/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
